@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+    <h1>AKAN</h1>
+    <p1>Akan names are derived from ghanian culture.Frequently in ghana children are given their first name as aday name which corresponds to the day in the week they were born.<br>
+         Want to know your Akan name?. Input your birthday</p1>
+         <br><br><br</>
+         <form onsubmit="myFunction()">
+            <div class="form-group">
+                <label for="year">
+                <input type="text" id="year" placeholder="YOB"
+                min="1990"
+                max="2019"
+                required>
+            </label>
+            
+                <div class="form-group">
+                    <label for="month">
+                    <input type="text" id="month" placeholder="MOB"
+                    min="0"
+                    max="12"
+                    required>
+                </label>
+
+                <div class="form-group">
+                    <label for="day">
+                    <input type="text" id="day" placeholder="DOB"
+                    min="0"
+                    max="31"
+                    required>
+                    <div class="form-group">
+                            <div>
+                            <label for="radio" class="radio-inline">
+                            <input
+                            type="radio"
+                            value="male"
+                            name="gender"
+                            id="male"
+                            required
+                            />
+                            Male </label
+                            ><br />
+                            <label for="radio" class="radio-inline">
+                            <input
+                            type="radio"
+                            value="male"
+                            name="gender"
+                            id="female"
+                            required
+                            />
+                            Female
+                            </label>
+                          </div>
+                          </div>
+                </label>
+                <button type="submit"onclick= "getName()"
+            onsubmit="event.preventDefault()"
+            class="button">submit</button>
+        </button>
+            </div>
+         
+          
+
+ </div>
+ <script src="js/script.js"></script>
+</body>
+</html>
